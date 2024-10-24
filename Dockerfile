@@ -1,5 +1,5 @@
 # Fetching the latest node image on alpine linux
-FROM node:latest  AS development
+FROM node:10-alpine  AS development
 
 
 # Setting up the work directory
